@@ -14,6 +14,7 @@ El desarrollo se realizará en equipo, utilizando una metodología de organizaci
 - Pedro Antonio Vargas Panilli
 - Kévin Manuel Rodríguez Suárez
 - Pablo Tejera González
+- Enrico Bozze Bustamante
 
 ## 🎯 Objetivos
 
