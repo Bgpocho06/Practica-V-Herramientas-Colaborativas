@@ -11,8 +11,8 @@ El desarrollo se realizará en equipo, utilizando una metodología de organizaci
 ## 👥 Integrantes del equipo
 
 - Edgar Barreto González
-- Pedro Antonio Vargas Panilli
-- Kévin Manuel Rodríguez Suárez
+- Pedro Antonio Vargas Pallini
+- Kevin Manuel Rodríguez Suárez
 - Pablo Tejera González
 - Enrico Bozzi Bustamante
 
