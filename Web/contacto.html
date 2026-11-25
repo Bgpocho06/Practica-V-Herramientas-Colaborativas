@@ -1,0 +1,140 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Revisión PO &mdash; Grupo 5</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>
+        CódigoDeBarras
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Proyecto</a></li>
+        <li><a href="equipo.html">Equipo y Tareas</a></li>
+        <li><a href="contacto.html" class="active">Revisión PO</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">Feedback y Backlog</span>
+        <h1>Revisión del Product Owner.</h1>
+        <p>
+          Canal directo para que el profesor y el jefe de proyecto del grupo asignado
+          soliciten ajustes o nuevas tareas para el próximo sprint.
+          Actualmente no funcional.
+        </p>
+      </div>
+    </section>
+
+    <section class="section">
+      <div class="container contact-layout">
+        <!-- COLUMNA IZQUIERDA: FICHA DEL EQUIPO -->
+        <div class="card">
+          <h3>Ficha del Equipo</h3>
+          <p style="margin-bottom: 1.5rem;">
+            Información de control de la organización en GitHub.
+          </p>
+
+          <div class="info-block">
+            <h4>Product Owners</h4>
+            <p>Profesor de la asignatura y Jefe de Proyecto del otro grupo.</p>
+          </div>
+
+          <div class="info-block">
+            <h4>Política de Ramas</h4>
+            <p>Desarrollo aislado en ramas feature/* y merge por Pull Request.</p>
+          </div>
+
+          
+          <div class="info-block" style="margin-bottom: 0;">
+            <h4>Integrantes (5)</h4>
+            <ul class="task-list" style="margin-top: 0.45rem;">
+              <li>Edgar Barreto González &mdash; Jefe de Proyecto/Desarrollador</li>
+              <li>Pedro Antonio Vargas Pallini &mdash; Desarrollador</li>
+              <li>Kevin Manuel Rodríguez Suárez &mdash; Desarrollador</li>
+              <li>Pablo Tejera González &mdash; Desarrollador</li>
+              <li style="margin-bottom: 0;">Enrico Bozzi Bustamante &mdash; Desarrollador</li>
+            </ul>
+          </div>
+        </div>
+
+        
+        <form class="form-card" action="#" method="post">
+          <div class="form-group">
+            <label for="po-nombre">Product Owner</label>
+            <input
+              type="text"
+              id="po-nombre"
+              name="po-nombre"
+              class="form-control"
+              placeholder="Profesor o Jefe de Proyecto"
+              required
+            >
+          </div>
+
+          <div class="form-group">
+            <label for="etiqueta">Tamaño de tarea</label>
+            <select id="etiqueta" name="etiqueta" class="form-control" required>
+              <option value="">Seleccionar...</option>
+              <option value="low">Low</option>
+              <option value="medium">Medium</option>
+              <option value="high">High (dividir antes del sprint)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="repositorio">Repositorio</label>
+            <select id="repositorio" name="repositorio" class="form-control" required>
+              <option value="web">Web Responsive (HTML / CSS)</option>
+              <option value="csharp">Proyecto C# (Anexo I)</option>
+              <option value="sql">Consultas SQL Steam (Anexo II)</option>
+            </select>
+          </div>
+
+          <div class="form-group">
+            <label for="detalle">Descripción del requisito</label>
+            <textarea
+              id="detalle"
+              name="detalle"
+              class="form-control"
+              placeholder="Indica los cambios o mejoras solicitadas..."
+              required
+              minlength="10"
+            ></textarea>
+          </div>
+
+          <button type="submit" class="btn btn-primary" style="width: 100%;">
+            Añadir al Backlog
+          </button>
+        </form>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Grupo 5. Práctica V &mdash; Herramientas Colaborativas.</p>
+      <div class="footer-links">
+        <a href="index.html">Proyecto</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Revisión PO</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>

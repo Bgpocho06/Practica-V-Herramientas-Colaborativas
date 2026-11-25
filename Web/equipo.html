@@ -1,0 +1,184 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Equipo y Tareas &mdash; Grupo 5</title>
+  <link rel="stylesheet" href="css/styles.css">
+</head>
+<body>
+  <header class="navbar">
+    <div class="container nav-wrapper">
+      <a href="index.html" class="logo">
+        <span class="logo-dot"></span>
+         CódigoDeBarras
+      </a>
+
+      <input type="checkbox" id="menu-toggle" class="menu-checkbox">
+      <label for="menu-toggle" class="menu-toggle" aria-label="Abrir menú">
+        <span></span>
+        <span></span>
+      </label>
+
+      <ul class="nav-links">
+        <li><a href="index.html">Proyecto</a></li>
+        <li><a href="equipo.html" class="active">Equipo y Tareas</a></li>
+        <li><a href="contacto.html">Revisión PO</a></li>
+      </ul>
+    </div>
+  </header>
+
+  <main>
+    <section class="page-header">
+      <div class="container">
+        <span class="eyebrow">Organización y Roles</span>
+        <h1>Quién hace qué.</h1>
+        <p>
+          Distribución del trabajo entre los cinco integrantes del equipo dentro de la
+          organización de GitHub.
+        </p>
+      </div>
+    </section>
+
+    <!-- TARJETAS DE LOS 5 INTEGRANTES -->
+    <section class="section">
+      <div class="container">
+        <div class="grid-2">
+
+          <!-- ================= Edgar Barreto González ================= -->
+          <article class="card">
+            <span class="card-tag">Jefe de Proyecto</span>
+            <h3>Edgar Barreto González</h3>
+            <p>Gestión del tablero, redacción de la Wiki y validación de Pull Requests.</p>
+            <ul class="task-list">
+              <li>Creación de repositorios, etiquetas (low, medium, high) y pizarra ágil.</li>
+              <li>Elaboración del documento PDF de resumen al cierre de cada sprint.</li>
+              <li>Consultas SQL</li>
+            </ul>
+            <span class="branch-pill">Scrum Master &bull; Revisión PRs</span>
+          </article>
+
+          <!-- ================= Pedro Antonio Vargas Pallini ================= -->
+          <article class="card">
+            <span class="card-tag">Desarrollador 1</span>
+            <h3>Pedro Antonio Vargas Pallini</h3>
+            <p>[Resumen breve del área de trabajo de este integrante]</p>
+            <ul class="task-list">
+              <li>Verificación del licence de GitHub</li>
+              <li>Consultas SQL</li>
+              <li>[Tarea 3 realizada]</li>
+            </ul>
+            <span class="branch-pill">feature/integrante-2</span>
+          </article>
+
+          <!-- ================= Kevin Manuel Rodríguez Suárez ================= -->
+          <article class="card">
+            <span class="card-tag">Desarrollador 2</span>
+            <h3>Kevin Manuel Rodríguez Suárez</h3>
+            <p>Realización de la página Web sobre el trabajo</p>
+            <ul class="task-list">
+              <li>CSS y HTML de la pagina Web</li>
+              <li>Consultas SQL</li>
+              <li>[Tarea 3 realizada]</li>
+            </ul>
+            <span class="branch-pill">feature/integrante-3</span>
+          </article>
+
+          <!-- ================= Pablo Tejera González ================= -->
+          <article class="card">
+            <span class="card-tag">Desarrollador 3</span>
+            <h3>Pablo Tejera González</h3>
+            <p>Realización de las partes de Strings y Decimales en C#</p>
+            <ul class="task-list">
+              <li>Realización proyecto C# 3 y 4</li>
+              <li>Consultas SQL</li>
+              <li>[Tarea 3 realizada]</li>
+            </ul>
+            <span class="branch-pill">feature/integrante-4</span>
+          </article>
+
+          <!-- ================= Enrico Bozzi Bustamante ================= -->
+          <article class="card">
+            <span class="card-tag">Desarrollador 4</span>
+            <h3>Enrico Bozzi Bustamante</h3>
+            <p>[Resumen breve del área de trabajo de este integrante]</p>
+            <ul class="task-list">
+              <li>[Tarea 1 realizada en C# / Web / SQL]</li>
+              <li>Consultas SQL</li>
+              <li>[Tarea 3 realizada]</li>
+            </ul>
+            <span class="branch-pill">feature/integrante-5</span>
+          </article>
+
+        </div>
+      </div>
+    </section>
+
+    <!-- TABLA RESUMEN -->
+    <section class="section section-alt">
+      <div class="container">
+        <div class="section-header">
+          <h2>Estado del Sprint</h2>
+          <p>Seguimiento general de módulos asignados</p>
+        </div>
+
+        <div class="table-wrapper">
+          <table>
+            <thead>
+              <tr>
+                <th>Integrante</th>
+                <th>Rol</th>
+                <th>Módulo Asignado</th>
+                <th>Estado</th>
+              </tr>
+            </thead>
+            <tbody>
+              <tr>
+                <td>Edgar Barreto González</td>
+                <td>Jefe de Proyecto</td>
+                <td>Gestión, Wiki y PDF Sprints</td>
+                <td class="status-done">Completado</td>
+              </tr>
+              <tr>
+                <td>Pedro Antonio Vargas Pallini</td>
+                <td>Desarrollador</td>
+                <td>[Ej. Proyecto C# &mdash; Arrays y Números]</td>
+                <td class="status-done">Completado</td>
+              </tr>
+              <tr>
+                <td>Kevin Manuel Rodríguez Suárez</td>
+                <td>Desarrollador</td>
+                <td>[Ej. Proyecto C# &mdash; Strings y Decimales]</td>
+                <td class="status-done">Completado</td>
+              </tr>
+              <tr>
+                <td>Pablo Tejera González</td>
+                <td>Desarrollador</td>
+                <td>[Ej. Web Responsive HTML/CSS]</td>
+                <td class="status-doing">Completado</td>
+              </tr>
+              <tr>
+                <td>Enrico Bozzi Bustamante</td>
+                <td>Desarrollador</td>
+                <td>[Ej. Consultas SQL Steam]</td>
+                <td class="status-done">Completado</td>
+              </tr>
+            </tbody>
+          </table>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <footer>
+    <div class="container footer-content">
+      <p>&copy; 2026 Grupo 5. Práctica V &mdash; Herramientas Colaborativas.</p>
+      <div class="footer-links">
+        <a href="index.html">Proyecto</a>
+        <a href="equipo.html">Equipo</a>
+        <a href="contacto.html">Revisión PO</a>
+      </div>
+    </div>
+  </footer>
+</body>
+</html>
