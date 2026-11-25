@@ -24,7 +24,7 @@ El sitio consta de **3 páginas HTML** enlazadas entre sí y una única hoja de 
 
 ## Integrantes
 
-| Nombres |
+| Colaboradores |
 | :--- |
 | **Edgar Barreto González** | 
 | **Pedro Antonio Vargas Pallini** | 
@@ -36,5 +36,5 @@ El sitio consta de **3 páginas HTML** enlazadas entre sí y una única hoja de 
 
 ## Flujo de Trabajo en GitHub
 
-* **Product Owners:** Profesor de la asignatura y Jefe de Proyecto del grupo asignado.
+* **Product Owners:** (Profesor) Sergio Ferrera De Diego (Jefe de Proyecto) Edgar Barreto González.
 * **Control de versiones:** Desarrollo aislado en ramas por funcionalidad (`feature/*`) sin modificaciones directas sobre `master`, integrando cada avance mediante **Pull Requests** revisadas por el Jefe de Proyecto.
