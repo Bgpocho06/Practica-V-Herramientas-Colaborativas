@@ -10,6 +10,7 @@ El desarrollo se realizará en equipo, utilizando una metodología de organizaci
 
 ## 👥 Integrantes del equipo
 
+Nombre del Equipo: Código de Barras
 - Edgar Barreto González
 - Pedro Antonio Vargas Pallini
 - Kevin Manuel Rodríguez Suárez
