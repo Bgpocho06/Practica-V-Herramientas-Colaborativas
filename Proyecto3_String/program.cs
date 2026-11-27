@@ -7,7 +7,7 @@ namespace Proyecto3_String
         static void Main(string[] args)
         {
             int opcion;
-
+//Equipo CodigoDeBarras
             do
             {
                 MostrarMenu();
