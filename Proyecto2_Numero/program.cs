@@ -7,7 +7,7 @@ namespace Proyecto2_Numero
         static void Main(string[] args)
         {
             int opcion;
-
+            // Equipo Código  de barras
             do
             {
                 MostrarMenu();
