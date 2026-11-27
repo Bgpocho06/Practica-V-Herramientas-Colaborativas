@@ -7,7 +7,7 @@ namespace Proyecto1_Array
         static void Main(string[] args)
         {
             int opcion;
-
+        // Equipo Código de barras.
             do
             {
                 MostrarMenu();
