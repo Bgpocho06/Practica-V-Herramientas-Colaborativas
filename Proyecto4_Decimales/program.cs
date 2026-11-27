@@ -7,7 +7,7 @@ namespace Proyecto4_Decimales
         static void Main(string[] args)
         {
             int opcion;
-
+//Equipo CodigodeBarra
             do
             {
                 MostrarMenu();
